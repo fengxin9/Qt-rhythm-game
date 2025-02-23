@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mode</class>
+ <widget class="QDialog" name="mode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1800</width>
+    <height>1300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>-70</x>
+     <y>0</y>
+     <width>1861</width>
+     <height>1291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/C:/Users/86130/Pictures/Saved Pictures/image 1.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>1040</y>
+     <width>281</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;新宋体&quot;;
+background-color: rgb(216, 216, 162);</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>350</y>
+     <width>311</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>牵丝戏</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>560</y>
+     <width>291</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>未完待续</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>180</y>
+     <width>281</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;隶书&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选择音乐</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
